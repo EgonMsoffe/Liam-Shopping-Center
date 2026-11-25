@@ -21,8 +21,6 @@ jobs:
         with:
           gradle-version: '8.9'
 
-      - uses: android-actions/setup-android@v3
-
       - name: Extract project
         run: |
           unzip Liam_Shopping_Center_Android_Source.zip -d extracted
